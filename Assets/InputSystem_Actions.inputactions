@@ -8,12 +8,12 @@
             "actions": [
                 {
                     "name": "Drag",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "461555fc-9113-4307-bc71-7c7e4d007253",
-                    "expectedControlType": "",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [

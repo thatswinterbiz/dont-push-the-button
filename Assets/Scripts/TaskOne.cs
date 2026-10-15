@@ -1,16 +1,9 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class TaskOne : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    private float yPosition = -4;
+    [Range(-8.5f, 8f)]
+    private float xLimit = 0f;
 }
