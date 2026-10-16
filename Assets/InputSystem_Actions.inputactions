@@ -3,13 +3,13 @@
     "name": "InputSystem_Actions",
     "maps": [
         {
-            "name": "UI",
-            "id": "272f6d14-89ba-496f-b7ff-215263d3219f",
+            "name": "Player",
+            "id": "92cae607-6fbb-4473-a991-a150574af5b9",
             "actions": [
                 {
-                    "name": "Drag",
+                    "name": "Move",
                     "type": "Value",
-                    "id": "461555fc-9113-4307-bc71-7c7e4d007253",
+                    "id": "7e86d459-f103-4463-ae88-0d7b70bb5bd3",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -19,12 +19,12 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "c91b5c43-0d76-4ccc-a670-eca491b8a5b2",
-                    "path": "<Mouse>/leftButton",
+                    "id": "7ccd74a4-e1b5-49ee-b606-4effc00e3e97",
+                    "path": "<Mouse>/position",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Drag",
+                    "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
